@@ -9,8 +9,8 @@ app = FastAPI(
 
 app.include_router(chat.router, prefix="/api/v1")
 
-#add cors configurations
 
+#add cors configurations
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:4200"],

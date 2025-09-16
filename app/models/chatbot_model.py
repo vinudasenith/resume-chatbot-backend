@@ -5,6 +5,7 @@ class LocalChatbot:
         self.api_url = "http://localhost:11434/api/chat"
         self.model_name = model_name
 
+
     # Function to generate a response
     def generate_response(self, prompt: str) -> str:
         try:
@@ -25,6 +26,7 @@ class LocalChatbot:
                 return f"Error: Model returned status code(response.status_code)"
         except Exception as e:
             return f"Error contacting local model: {e}"
+
 
 # Instantiate chatbot
 chatbot = LocalChatbot()
