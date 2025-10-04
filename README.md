@@ -142,5 +142,4 @@ For questions, feedback, or issues, contact [ha.vinudas@gmail.com](mailto:ha.vin
 
 - Frontend repository: https://github.com/vinudasenith/resume-app-frontend.git
 - Backend repository: https://github.com/vinudasenith/resume-app-backend.git
-- Chatbot Frontend repository: https://github.com/vinudasenith/resume-chatbot-frontend.git
 - Resume Parser AI repository: https://github.com/vinudasenith/resume-parser-ai.git
